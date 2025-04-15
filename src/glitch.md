@@ -17,10 +17,10 @@ title: Glitch Demo
   <p>You can apply the glitch effect to any layer using the <a href="https://www.npmjs.com/package/glitch-effect">glitch-effect</a> package.</p>
 </div>
 
-<script src="/assets/glitch-effect.min.js"></script>
+<script src="/demos/assets/glitch-effect.min.js"></script>
 <script>
 const container = document.getElementById('glitch-target');
-const glitch = new GlitchEffect(container, '/assets/demo.png', {
+const glitch = new GlitchEffect(container, '/demos/assets/demo.png', {
   intensity: 1,
   noise: true
 });

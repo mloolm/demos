@@ -5,6 +5,8 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",
       output: "docs"
-    }
+    },
+     pathPrefix: "/demos/"
+
   };
 };
