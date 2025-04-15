@@ -1,0 +1,15 @@
+{
+  "name": "eleventy-demo-site",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "copy:glitch": "cp ./node_modules/glitch-effect/dist/glitch-effect.min.js src/assets"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "dependencies": {
+    "glitch-effect": "^1.0.0"
+  }
+}

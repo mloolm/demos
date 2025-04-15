@@ -1,0 +1,1 @@
+npm run copy:glitch && npm run build
