@@ -20,7 +20,7 @@ title: Glitch Demo
 <script src="/demos/assets/glitch-effect.min.js"></script>
 <script>
 const container = document.getElementById('glitch-target');
-const glitch = new GlitchEffect(container, '/demos/assets/demo.png', {
+const glitch = new GlitchEffect(container, '/demos/assets/demo.jpeg', {
   intensity: 1,
   noise: true
 });
